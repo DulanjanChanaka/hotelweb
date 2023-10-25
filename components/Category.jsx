@@ -4,7 +4,7 @@ import React from 'react'
 
 const Category = () => {
     return (
-        <div id='category' className='w-full mt-8 p-2 pb-5'>
+        <div id='category' className='w-full mt-8 p-2 pb-[100px]'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
 
                 <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8'>
