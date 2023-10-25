@@ -19,8 +19,8 @@ const Category = () => {
                                     <div className='m-auto flex-2/3'>
                                         <Image src='/assets/bg1.jpeg' width='64' height='64' alt='/' className='rounded-t-xl' />
                                     </div>
-                                    <div className='flex flex-1 items-center justify-center'>
-                                        <h3 className='text-center'>CHECK IN</h3>
+                                    <div className='flex flex-1 items-center justify-center '>
+                                        <h3 className='text-center '>CHECK IN</h3>
                                     </div>
                                 </div>
                             </div>

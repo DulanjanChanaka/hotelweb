@@ -12,15 +12,15 @@ const Page = () => {
       height={325}
       className="bg-cover bg-center h-screen w-full flex items-center"
     />
-    <div className="absolute top-0 w-full h-full flex flex-col items-center justify-center  ">
+    <div className="absolute top-0 left-0 w-full h-full flex flex-col items-center justify-center  ">
       <div className="bg-white bg-opacity-40 rounded-xl p-8">
         <h1 className=" text-center text-white font-bold pb-5">Login</h1>
-        <form className='flex flex-col gap-5'>
+        <form className='flex flex-col gap-5 '>
           <input
             type='text'
             name='name'
             placeholder='Enter Your Name'
-            className='border rounded-lg p-2'
+            className='border rounded-lg p-2 w-[250px] lg:w-[400px]'
           />
           <input
             type='text'
