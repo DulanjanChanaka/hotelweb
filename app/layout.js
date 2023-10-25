@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
       <body className={`{inter.className} lg:mx-[280px] `}>
         <Navbar/>
         {children}
-        <BottomNavbar/>
+        <BottomNavbar />
         </body>
     </html>
   )

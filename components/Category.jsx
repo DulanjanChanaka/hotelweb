@@ -1,29 +1,34 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const Category = () => {
     return (
-        <div id='category' className='w-full mt-8 p-2 mb-5'>
+        <div id='category' className='w-full mt-8 p-2 pb-5'>
             <div className='max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
 
                 <div className='grid grid-cols-2 md:grid-cols-2 lg:grid-cols-5 gap-8'>
 
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
-                        <div className='justify-center items-center flex flex-1'>
-                            <div className='flex flex-col w-full'>
-                                <div className='m-auto flex-2/3'>
-                                    <Image src='/assets/bg1.jpeg' width='64' height='64' alt='/' className='rounded-t-xl' />
-                                </div>
-                                <div className='flex flex-1 items-center justify-center'>
-                                    <h3 className='text-center'>CHECK IN</h3>
+
+
+                    <Link href='/checkin'>
+                        <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
+                            <div className='justify-center items-center flex flex-1'>
+                                <div className='flex flex-col w-full'>
+                                    <div className='m-auto flex-2/3'>
+                                        <Image src='/assets/bg1.jpeg' width='64' height='64' alt='/' className='rounded-t-xl' />
+                                    </div>
+                                    <div className='flex flex-1 items-center justify-center'>
+                                        <h3 className='text-center'>CHECK IN</h3>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </Link>
 
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -36,7 +41,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -49,7 +54,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -62,7 +67,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -75,7 +80,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -88,7 +93,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -101,7 +106,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -114,7 +119,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>
@@ -127,7 +132,7 @@ const Category = () => {
                         </div>
                     </div>
 
-                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col'>
+                    <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300 flex flex-col bg-red-700 text-white'>
                         <div className='justify-center items-center flex flex-1'>
                             <div className='flex flex-col w-full'>
                                 <div className='m-auto flex-2/3'>

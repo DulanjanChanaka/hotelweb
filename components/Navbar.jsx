@@ -49,7 +49,7 @@ const Navbar = () => {
     
     <div className={`lg:block hidden  sticky top-0 left-0 w-full h-20 z-50 shadow-xl  ${nav ? 'bg-white' : ''}`} style={{ background: navBg }}>
       <div className='flex justify-between  items-center w-full h-full px-2 2xl:px-16 '>
-        <h2 className='font-bold text-white'>HOTEL</h2>
+       <Link href='/'> <h2 className='font-bold text-white'>HOTEL</h2></Link>
 
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
@@ -60,7 +60,7 @@ const Navbar = () => {
                 onClick={() => handleItemClick('item1')}
               >Home</li>
             </Link>
-            <Link href='/#product'>
+            <Link href='/cart'>
               <li
                 className={`ml-10 text-sm uppercase hover:border-b-2 hover:text-[#5651e5] ${activeItem === 'item2' ? 'border-black' : ''}`}
                 style={{ borderBottomWidth: activeItem === 'item2' ? '1px' : '0px' }}
